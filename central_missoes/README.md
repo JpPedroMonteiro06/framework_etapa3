@@ -23,10 +23,9 @@ HomePage -> MissaoProvider -> MissaoService -> Cloud Firestore (collection `miss
 
 ## Como rodar
 
-O `firebase_options.dart` não está no repositório. Antes de rodar precisa gerar ele com o projeto do Firebase:
+Usa o projeto do Firebase `framework-etapa3` (configuração web no `lib/firebase_options.dart`).
 
 ```
 flutter pub get
-dart pub global run flutterfire_cli:flutterfire configure
 flutter run -d chrome
 ```

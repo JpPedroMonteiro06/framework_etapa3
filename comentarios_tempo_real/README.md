@@ -9,7 +9,7 @@ Continuação do Mural da Turma da aula de 19/10. Cadastro, login, perfil e publ
 
 Arquivos novos: `lib/services/comentario_service.dart` e `lib/pages/comentarios_page.dart`. Alterado: `lib/pages/home_page.dart`.
 
-O `lib/firebase_options.dart` não está no repositório, é o mesmo do projeto da aula (ou gerar com `flutterfire configure`).
+Usa o projeto do Firebase `framework-etapa3` (configuração web no `lib/firebase_options.dart`), com login por e-mail/senha ativado e as regras do `firestore.rules` publicadas.
 
 ## Questões
 

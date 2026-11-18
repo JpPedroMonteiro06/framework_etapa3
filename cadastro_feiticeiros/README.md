@@ -11,10 +11,9 @@ As missões ficam na collection `missoes_jujutsu`. As regras que usei no Firesto
 
 ## Como rodar
 
-O `firebase_options.dart` não está no repositório, precisa gerar com o flutterfire. No console do Firebase tem que ativar o login com Google em Authentication.
+Usa o projeto do Firebase `framework-etapa3` (configuração web no `lib/firebase_options.dart`), com o login do Google ativado em Authentication.
 
 ```
 flutter pub get
-dart pub global run flutterfire_cli:flutterfire configure
 flutter run -d chrome
 ```
